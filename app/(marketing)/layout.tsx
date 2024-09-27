@@ -1,13 +1,15 @@
 import { ReactNode } from "react"
+import { Navbar } from "./_components/Navbar";
+import { Footer } from "./_components/Footer";
 
 const MarketingLayout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="h-full bg-slate-100">
-      {/* Header */}
+      <Navbar />
       <main className="flex items-center justify-center pt-40">
         {children}
       </main>
-      {/* Footer */}
+      <Footer />
     </div>
   )
 }

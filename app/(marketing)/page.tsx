@@ -1,4 +1,7 @@
+import { Button } from "@/components/ui/button";
 import { Medal } from "lucide-react";
+import Link from "next/link";
+
 
 const MarketingPage = () => {
   return (
@@ -17,6 +20,11 @@ const MarketingPage = () => {
         Collaborate, manage projects, and reach new productivity peaks.
         From high rises to the home office, the way your team works is unique - accomplish it all with taskify
       </div>
+      <Button asChild size="lg">
+        <Link href="/sign-up">
+          Go taskify for free
+        </Link>
+      </Button>
     </div>
   )
 }
