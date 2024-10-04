@@ -11,12 +11,12 @@ export const Navbar = () => {
         </div>
         <div className="flex items-center justify-between w-full mx-auto md:block md:text-right">
           <Button asChild variant={"ghost"}>
-            <Link href="/Login">
+            <Link href="/sign-in">
               Login
             </Link>
           </Button>
           <Button asChild>
-            <Link href="/Signup">
+            <Link href="/Sign-up">
               Signup
             </Link>
           </Button>
